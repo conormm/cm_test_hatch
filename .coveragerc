@@ -1,0 +1,15 @@
+[run]
+source =
+    cm_test_hatch
+    tests
+branch = True
+omit =
+    cm_test_hatch/cli.py
+
+[report]
+exclude_lines =
+    no cov
+    no qa
+    noqa
+    pragma: no cover
+    if __name__ == .__main__.:

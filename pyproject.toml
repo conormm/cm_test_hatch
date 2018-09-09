@@ -1,0 +1,17 @@
+[metadata]
+name = 'cm_test_hatch'
+version = '0.0.1'
+description = ''
+author = 'Conor McDonald'
+author_email = 'conrmcdonald@gmail.com'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/_/cm_test_hatch'
+
+[requires]
+python_version = ['2.7', '3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'

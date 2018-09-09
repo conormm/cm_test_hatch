@@ -1,0 +1,12 @@
+*.log
+*.pyc
+.cache/
+.coverage
+.idea/
+.vscode/
+cm_test_hatch.egg-info/
+build/
+dist/
+docs/build/
+venv/
+wheelhouse/
